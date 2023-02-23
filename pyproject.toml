@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "securecred"
+version = "0.1.0"
+description = "Securely write/read your credentials/messages in/from files using AES encryption. (depends only on pyaes - a small, pure-python package thus platform independent)"
+authors = ["Gwang-Jin Kim <gwang.jin.kim.phd@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyaes = "^1.6.1"
+pytest = "5.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
