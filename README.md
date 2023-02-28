@@ -14,7 +14,7 @@ So, one main aim of this package is to maximally simplify the procedure of gener
 # Installation
 
 ```
-pip install aesencrypt
+pip install securecred
 ```
 
 
